@@ -57,4 +57,10 @@
 
 
 
+// You can change the default page by populating the Start Page property in the project's config.xml file using the Configuration Editor.
+
+// Openweather API Key: 8d1887d8eb14c22b4f7a13bc90b20e8a
+
+
+
 

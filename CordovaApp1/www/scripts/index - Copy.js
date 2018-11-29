@@ -14,6 +14,12 @@
         
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
 
+        // This code updates the main page to indicate that the Cordova container finished initializing
+        var parentElement = document.getElementById('deviceready');
+        var listeningElement = parentElement.querySelector('.listening');
+        var receivedElement = parentElement.querySelector('.received');
+        listeningElement.setAttribute('style', 'display:none;');
+        receivedElement.setAttribute('style', 'display:block;');
     };
 
     function onPause() {
